@@ -1,0 +1,214 @@
+body
+/*general rules so everything looks the same, any changes may be added with other selectors*/
+{
+	background-color:#ddcdbf;
+	font-family:monospace;
+	color:rgb(81, 57, 45);
+}
+
+div
+{
+	background-color:#F5EDDA;;
+}
+
+h1
+{
+	font-size:40pt;
+	text-align:center;
+	width:100%;
+	background-color:#A8BAA9;
+	margin-top:0%;
+	padding:2%;
+	border-style:solid;
+}
+
+h2
+{
+	font-size:24pt;
+	height:50px;
+	text-align:center;
+	background-color:#ECBA9C;
+	margin-top:0%;
+	padding-top:5px;
+} 
+
+h3
+{
+	font-size:14pt;
+	text-align:center;
+}
+
+p
+{
+	font-size:14pt;
+	margin-left:8%;
+	margin-right:8%;
+	text-align:justify;
+}
+
+.background_color_fix
+/*as some div tags have been used to align things next to each other, their background colour doesn't match the page background*/
+{
+	background-color:#ddcdbf;
+}
+
+.indent
+/*indents select paragraphs*/
+{
+	text-indent:50px;
+}
+
+.smaller_font_size
+{
+	font-size:12pt;
+}
+
+.aligningSomethingNextToSomething
+/*used to align two things side by side*/
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom:5%;
+}
+
+#delta_wave_img_caption
+{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+#table-of-contents
+{
+	border-style:solid;
+	border-width:medium;
+	width:30%;
+	font-size:14pt;
+	height:325px;
+	margin-right:15%;
+}
+
+/* each part has its own selector so they can be positioned separately */	
+#part1
+{
+	border-style:solid;
+	width:50%;
+	margin-left:10%;
+}
+
+#part2
+{
+	border-style:solid;
+	width:80%;
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#part3
+{
+	border-style:solid;
+	width:80%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#sleep-stages
+{
+	width:60%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	border-style:solid;
+	border-width:thin;
+}
+
+#part4
+{
+	border-style:solid;
+	width:40%;
+	margin-top:5%;
+	margin-left:10%;
+}
+
+#part5
+{
+	width:65%;
+	border-style:solid;
+	margin-top:5%;
+	margin-left:10%;
+}
+
+#part6
+{
+	width:35%;
+	border-style:solid;
+	margin-right:10%
+}
+
+#part7
+{
+	width:35%;
+	border-style:solid;
+	margin-top:15%;
+}
+
+#part8
+{
+	border-style:solid;
+	width:80%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*image styling and positioning*/
+.image_border
+{
+	border-style:solid;
+	border-width:medium;
+}
+
+#image2
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#image3
+{
+	display:block; 
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ #image4
+ {
+	display:block;
+	margin-top:5%;
+	margin-bottom:10%;
+	margin-left:auto;
+	margin-right:auto;
+ }
+ 
+ #validators
+ {
+	 margin-top:5%;
+	 margin-left:10%;
+ }
+ 
+ /* css for citations page **/
+ #works_cited, #image_citations
+ {
+	 border-style:solid;
+	 width:80%;
+	 margin-top:5%;
+	 margin-left:10%;
+	 margin-right:10%;
+ }
+ 
