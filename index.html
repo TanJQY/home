@@ -4,51 +4,60 @@
 		<meta charset="UTF-8"/>
 		<title>Sleep</title>
 		<link rel="stylesheet" type="text/css" href="sleep.css"/>
+		<link rel="icon" href="Jodie_Buddha.jpg" type="image/icon">
 	</head>
+	
 	<body>
 		<h1 id="top">Sleep</h1>
 		<!-- id="top" for an internal link to go back to the top of the webpage -->
 		<!-- div tags used to group elements together for styling purposes -->
-		<div class="aligningSomethingNextToSomething background_color_fix">
-			<div id="table-of-contents">
+		
+		<!-- table of contents section along with an image -->
+		<div class="aligningSomethingNextToSomething backgroundColorFix">
+			<!--table of contents, along with relative links to their locations in the webpage -->
+			<div id="tableOfContents">
 				<h2>Table of Contents</h2>
-				<!--table of contents, along with relative links to their locations in the webpage -->
 				<ol>
 					<li>
-						<a href="#introduction">Introduction</a>
+						<a href="#intro">Introduction</a>
 					</li>
 					<li>
-						<a href="#sleep-drive">Circadian Rhythms & Sleep-Wake Homeostasis</a>
+						<a href="#sleep_drive">Circadian Rhythms & Sleep-Wake Homeostasis</a>
 					</li>
 					<li>
-						<a href="#what-is-sleep">What Is Sleep?</a>
+						<a href="#what_is_sleep">What Is Sleep?</a>
 					</li>
 					<li>
 						<a href="#importance">The Importance of Sleep</a>
 					</li>
 					<li>
-						<a href="#sleep-debt">Sleep Debt</a>
+						<a href="#sleep_debt">Sleep Debt</a>
 					</li>
 					<li>
-						<a href="#solutions">Solutions</a>
+						<a href="#answers">Solutions</a>
 					</li>
 					<li>
-						<a href="#napping">Napping</a>
+						<a href="#naps">Napping</a>
 					</li>
 				</ol>
 			</div>
-			<img class="image_border" src="person_sleeping.jpg" alt="black and white picture of a person's sleeping face" width="325"/>
-			<!-- image widths all in px since specifying units cause the code to be invalid-->
+			<img class="imageBorder" src="person_sleeping.jpg" alt="black and white picture of a person's sleeping face" width="325"/>
+			<!-- image widths all in px since specifying units cause html code to be invalid-->
 		</div>
-		<div id="part1">
-			<h2 id="introduction">Introduction</h2>
+		
+		<!-- introduction section-->
+		<div id="introduction">
+		<!-- class and id names with underscores or shortened alternate names to be used for internal links, while names written with camel case to be used for styling-->
+			<h2 id="intro">Introduction</h2>
 			<p class="indent">It is an irrefutable fact that sleep is both important and good for you. Despite that, sleep always seems to be undervalued. Whether it&rsquo;s someone bragging that they pulled an all nighter to study for a test or waking up to a message sent at 3 am, I am certain that you have witnessed sleep being brushed aside. After researching more on sleep, I&rsquo;ve found sleep to have a much greater effect on people than I previously thought. 
 			</p>
 		</div>
-		<div id="part2">
+		
+		<!-- section on circadian rhythms and sleep-wake homeostasis along with an image of an example of a circadian rhythm-->
+		<div id="circadianRhythmsSleepWakeHomeostasis">
 			<!--id is named sleep drive for conciseness-->
-			<h2 id="sleep-drive">Circadian Rhythms & Sleep-Wake Homeostasis</h2>
-			<img id="image2" src="circadian_rhythm_example.png" alt="diagram of an example of a circadian rhythm" width="500"/>
+			<h2 id="sleep_drive">Circadian Rhythms & Sleep-Wake Homeostasis</h2>
+			<img id="circadianRhythmExample" src="circadian_rhythm_example.png" alt="diagram of an example of a circadian rhythm" width="500"/>
 			<p class="indent">Before we get into the effects of sleep deprivation, we must first start with what sleep is and how it works. Sleep starts with two processes called the circadian rhythm and sleep-wake homeostasis. These two processes are responsible for when an individual sleeps and when they are awake. 
 			</p>
 			<!--multiple p tags in order to have an indent for each paragraph-->
@@ -57,59 +66,70 @@
 			<p class="indent">Sleep-wake homeostasis is what controls an individual&rsquo;s sleep drive. An individual&rsquo;s sleep drive increases for every hour that they&rsquo;re awake. Of course circadian rhythm also plays a role in this. Which explains why an individual can feel sleepy in the afternoon, but feel more awake later in the evening, even though by evening they&rsquo;ve been awake longer. Sleep-wake homeostasis also regulates sleep intensity. For example, if someone stayed up late to finish an assignment, their sleep-wake homeostasis would cause them to sleep longer the next night with longer periods of deep sleep. 
 			</p>
 		</div>
-		<div id="part3">
-			<h2 id="what-is-sleep">What Is Sleep?</h2>
+		
+		<!-- section on what sleep is along with two images of brain waves -->
+		<div id="whatIsSleep">
+			<h2 id="what_is_sleep">What Is Sleep?</h2>
 			<p class="indent">Now, what happens when someone actually goes to sleep? Simply stated what we call sleep is made up of 70 to 120 minute sleep cycles. Each sleep cycle is then composed of five sleep stages. Though some sources will combine the third and fourth stages for a total of four sleep stages instead of five. The five sleep stages are also further divided into non-REM sleep and REM sleep, with REM being the acronym for rapid eye movement. Stages one to four are all non-REM sleep, while stage five is the only stage of REM sleep. Each stage is differentiated by variations in brainwave frequencies, as well as eye and muscle movements. A normal sleep period contains around four to five sleep cycles.
 			</p>
-			<div id="sleep-stages">
+			<!-- descriptions of each sleep stage-->
+			<div id="sleepStages">
 				<h3>Stage 1</h3>
 				<!-- descriptions of stages aren't actual paragraphs thus no indents -->
-				<p class="smaller_font_size">Stage 1 sleep is a period of light sleep in which an individual drifts in and out of sleep. It is also very easy to wake someone up at this stage. Stage 1 sleep normally lasts for one to five minutes. During this stage breathing is regular, eyes move slowly and muscle activity is slowed.
+				<p class="smallerFontSize">Stage 1 sleep is a period of light sleep in which an individual drifts in and out of sleep. It is also very easy to wake someone up at this stage. Stage 1 sleep normally lasts for one to five minutes. During this stage breathing is regular, eyes move slowly and muscle activity is slowed.
 				</p>
 				<h3>Stage 2</h3>
-				<p class="smaller_font_size">Stage 2 sleep is where eye movements and muscle movements stop, with only occasional muscle twitches. Body temperature also drops, while brain waves slow with only random spikes in brain activity called sleep spindles. Stage 2 lasts ten to twenty minutes during the first cycle, but becomes longer as the night passes. This stage is also fairly easy to be woken up from.
+				<p class="smallerFontSize">Stage 2 sleep is where eye movements and muscle movements stop, with only occasional muscle twitches. Body temperature also drops, while brain waves slow with only random spikes in brain activity called sleep spindles. Stage 2 lasts ten to twenty minutes during the first cycle, but becomes longer as the night passes. This stage is also fairly easy to be woken up from.
 				</p>
 				<h3>Stage 3</h3>
-				<p class="smaller_font_size">Stage 3 is also called other names such as deep sleep, slow wave sleep and delta sleep. During this stage there are no eye or muscle movements. Delta waves start to appear, along with faster and smaller waves. It also becomes difficult to wake someone. If someone is awakened from deep sleep, they will feel groggy and disoriented, a feeling called sleep inertia. Additionally, stages 3 and 4 are believed to be the body&rsquo;s repair time. Periods of stage 3 and 4 get shorter as the night goes on.
+				<p class="smallerFontSize">Stage 3 is also called other names such as deep sleep, slow wave sleep and delta sleep. During this stage there are no eye or muscle movements. Delta waves start to appear, along with faster and smaller waves. It also becomes difficult to wake someone. If someone is awakened from deep sleep, they will feel groggy and disoriented, a feeling called sleep inertia. Additionally, stages 3 and 4 are believed to be the body&rsquo;s repair time. Periods of stage 3 and 4 get shorter as the night goes on.
 				</p>
 				<h3>Stage 4</h3>
-				<p class="smaller_font_size">Stage 4 is mostly the same as stage 3, except brain activity is now made up of only delta waves. 
+				<p class="smallerFontSize">Stage 4 is mostly the same as stage 3, except brain activity is now made up of only delta waves. 
 				</p>
 				<h3>Stage 5</h3>
-				<p class="smaller_font_size">Stage 5 is where things drastically change. Breathing becomes rapid and irregular. Eye movement increases. Heart rate and blood pressure rise. Arm and leg muscles are also paralyzed, which is believed to be the body&rsquo;s way of preventing an individual from lashing out during a vivid dream. Even though dreams can occur at any stage of sleep, REM sleep is where they are most vivid. Dreams during REM sleep are also the dreams that people tend to remember. At this stage of sleep, brain activity reaches levels equal to those when awake. The first period of REM sleep usually happens 90 minutes after falling asleep and later periods of REM sleep last longer as night passes.
+				<p class="smallerFontSize">Stage 5 is where things drastically change. Breathing becomes rapid and irregular. Eye movement increases. Heart rate and blood pressure rise. Arm and leg muscles are also paralyzed, which is believed to be the body&rsquo;s way of preventing an individual from lashing out during a vivid dream. Even though dreams can occur at any stage of sleep, REM sleep is where they are most vivid. Dreams during REM sleep are also the dreams that people tend to remember. At this stage of sleep, brain activity reaches levels equal to those when awake. The first period of REM sleep usually happens 90 minutes after falling asleep and later periods of REM sleep last longer as night passes.
 				</p>
 			</div>
-			<img id="image3" src="sleep_spindle.png" alt="fictional diagram of a sleep spindle" width="600"/>
-			<img id="image4" src="delta_wave.png" alt="fictional diagram of a delta wave" width="650"/>
-			<p id="delta_wave_img_caption">example of a delta wave
+			<img id="sleepSpindleImg" src="sleep_spindle.png" alt="fictional diagram of a sleep spindle" width="600"/>
+			<img id="deltaWaveImg" src="delta_wave.png" alt="fictional diagram of a delta wave" width="650"/>
+			<p id="deltaWaveImgCaption">example of a delta wave
 			</p>
 		</div>
-		<div class="aligningSomethingNextToSomething background_color_fix">
-			<img class="image_border" src="tired_man.jpg" alt="picture of a tired man sitting on a bed, with his head in his hands" width="400"/>
-			<div id="part4" >
+		
+		<!-- section on the importance of sleep along with an image of a tired man-->
+		<div class="aligningSomethingNextToSomething backgroundColorFix">
+			<img class="imageBorder" src="tired_man.jpg" alt="picture of a tired man sitting on a bed, with his head in his hands" width="400"/>
+			<div id="theImportanceOfSleep" >
 				<h2 id="importance">The Importance of Sleep</h2>
 				<p class="indent">The consequences of sleep deprivation should not be overlooked. Even just losing sleep for one or two days can have a noticeable impact on you. It can cause increased irritability and anxiousness. As well as lower coordination levels and slow down response times. Which can be especially dangerous for people with jobs that require concentration, like operating heavy machinery. Lack of sleep can also negatively affect the brain&rsquo;s ability to form memories and remember things. Furthermore, it can worsen the effects of a mental illness and alcohol. Long periods of sleep deprivation can lead to even worse consequences. Less sleep results in less time for the body to repair itself and can lead to a higher risk of health problems such as hypertension, heart disease and high blood pressure. Lack of sleep also increases the risk for obesity since not getting enough sleep regularly disrupts the balance between the hormones that regulate hunger. More hormones that cause feelings of hunger are produced along with less hormones that cause fullness. Sleep deprivation can also lead to a lower immune response and affect the regulation of blood glucose levels, which can increase the risk of diabetes. Additionally, it can result in more cortisol, a stress hormone, being produced which can contribute to the development of mental illnesses such as anxiety and depression.
 				</p>
 			</div>
 		</div>
-		<div id="part5">
-			<h2 id="sleep-debt">Sleep Debt</h2>
+		
+		<!-- section on sleep debt -->
+		<div id="sleepDebt">
+			<h2 id="sleep_debt">Sleep Debt</h2>
 			<p class="indent">Sleep debt, or sleep deficit, refers to the amount of sleep an individual gets a night subtracted from the amount of recommended sleep. For example, the recommended number of hours of sleep for a teenager is nine and a half hours. So if a teenager only gets seven hours of sleep, their sleep debt is now two hours. That might not seem like a lot, but there&rsquo;s a catch, sleep debt is cumulative. So if that teenager isn&rsquo;t getting enough sleep consistently, their sleep debt can easily grow. What&rsquo;s more is that one hour of lost sleep can take up to four days to recover from and up to nine days to actually get rid of the sleep debt. Many people, who don’t get enough sleep on the weekdays, may think that they can simply make up for that lost sleep on the weekends or with naps. However, though sleeping in and napping may make you feel less tired, it will not reverse any bodily effects such as the broken balance between hunger regulating hormones. 
 			</p>
 		</div>
-		<div class="aligningSomethingNextToSomething background_color_fix">
-			<div id="part6">	
-				<h2 id="solutions">Solutions</h2>
+		
+		<!-- solutions and napping sections -->
+		<div class="aligningSomethingNextToSomething backgroundColorFix">
+			<div id="solutions">	
+				<h2 id="answers">Solutions</h2>
 				<p class="indent">In the end, the best solution is to sleep the required amount at night instead of trying to make up for it later. A good way to start is by setting a sleep schedule. Set a time to wake up and a time to sleep. Additionally, if you need to sleep earlier, instead of trying to sleep a lot earlier than normal, sleep earlier in fifteen to thirty minute increments each day. For example if you sleep at 1 am, sleep at 12:45 am the next day, then 12:30 and so on. Another strategy that helps is developing a nightly routine. For instance, turning off electronics and doing something relaxing like reading before going to bed. It also helps to have a good sleep environment. A good environment entails: a comfortable temperature, no disruptive lights or sounds as well as a good mattress and bedding.
 				</p>
 			</div>
-			<div id="part7">	
-				<h2 id="napping">Napping</h2>
+			<div id="napping">	
+				<h2 id="naps">Napping</h2>
 				<p class="indent">Contrary to what was previously said, napping can sometimes be beneficial, but only in the right circumstances. First of all, it&rsquo;s important to know that naps are not a substitute for getting enough sleep regularly. However, napping can be beneficial if someone, who normally gets enough sleep, has missed a bit of sleep and feels tired. Taking a nap can improve mental functions like memory and coordination. It can also be relaxing and get rid of fatigue, as well as improve someone&rsquo;s mood. Additionally, napping can have some drawbacks such as disrupting sleep schedules and sleep inertia, which is feeling groggy and disoriented after waking up. To avoid these effects, take ten to twenty minute naps to avoid sleep inertia, and take naps during the early afternoon before 3 pm to avoid trouble when falling asleep at night. Moreover, it&rsquo;s also beneficial to allocate some time to fully wake up after a nap.
 				</p>
 			</div>
 		</div>
-		<div id="part8">
+		
+		<!-- ending section: link back to the top and link to sources -->
+		<div id="end">
 			<h2>End</h2>
 			<p>Looks like you&rsquo;ve reached the end of this webpage.</p>
 			<p>Would you like to go 
@@ -117,7 +137,9 @@
 				<a href="Sleep_Sources.html">our sources</a>?
 			</p>
 		</div>
-		<div id="validators" class="background_color_fix">
+		
+		<!-- link to validators -->
+		<div id="validators" class="backgroundColorFix">
 			<a href="https://validator.w3.org/check?uri=https://tanjqy.github.io/home/">
 				<img src="html_validator.png" alt="html5 validator" width="165"/>
 			</a>

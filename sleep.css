@@ -46,7 +46,7 @@ p
 	text-align:justify;
 }
 
-.background_color_fix
+.backgroundColorFix
 /*as some div tags have been used to align things next to each other, their background colour doesn't match the page background*/
 {
 	background-color:#ddcdbf;
@@ -58,7 +58,7 @@ p
 	text-indent:50px;
 }
 
-.smaller_font_size
+.smallerFontSize
 {
 	font-size:12pt;
 }
@@ -72,14 +72,14 @@ p
 	margin-bottom:5%;
 }
 
-#delta_wave_img_caption
+#deltaWaveImgCaption
 {
 	margin-left:30%;
 	margin-right:30%;
 	margin-bottom:5%;
 }
 
-#table-of-contents
+#tableOfContents
 {
 	border-style:solid;
 	border-width:medium;
@@ -90,14 +90,14 @@ p
 }
 
 /* each part has its own selector so they can be positioned separately */	
-#part1
+#introduction
 {
 	border-style:solid;
 	width:50%;
 	margin-left:10%;
 }
 
-#part2
+#circadianRhythmsSleepWakeHomeostasis
 {
 	border-style:solid;
 	width:80%;
@@ -106,7 +106,7 @@ p
 	margin-right:10%;
 }
 
-#part3
+#whatIsSleep
 {
 	border-style:solid;
 	width:80%;
@@ -115,7 +115,7 @@ p
 	margin-right:auto;
 }
 
-#sleep-stages
+#sleepStages
 {
 	width:60%;
 	margin-top:5%;
@@ -126,7 +126,7 @@ p
 	border-width:thin;
 }
 
-#part4
+#theImportanceOfSleep
 {
 	border-style:solid;
 	width:40%;
@@ -134,7 +134,7 @@ p
 	margin-left:10%;
 }
 
-#part5
+#sleepDebt
 {
 	width:65%;
 	border-style:solid;
@@ -142,21 +142,21 @@ p
 	margin-left:10%;
 }
 
-#part6
+#solutions
 {
 	width:35%;
 	border-style:solid;
 	margin-right:10%
 }
 
-#part7
+#napping
 {
 	width:35%;
 	border-style:solid;
 	margin-top:15%;
 }
 
-#part8
+#end
 {
 	border-style:solid;
 	width:80%;
@@ -166,20 +166,20 @@ p
 }
 
 /*image styling and positioning*/
-.image_border
+.imageBorder
 {
 	border-style:solid;
 	border-width:medium;
 }
 
-#image2
+#circadianRhythmExample
 {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-#image3
+#sleepSpindleImg
 {
 	display:block; 
 	margin-top:5%;
@@ -187,7 +187,7 @@ p
 	margin-right:auto;
 }
 
- #image4
+ #deltaWaveImg
  {
 	display:block;
 	margin-top:5%;
@@ -203,7 +203,7 @@ p
  }
  
  /* css for citations page **/
- #works_cited, #image_citations
+ #worksCited, #imageCitations
  {
 	 border-style:solid;
 	 width:80%;
